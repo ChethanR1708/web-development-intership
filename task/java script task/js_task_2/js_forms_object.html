@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xworkz</title>
+    <script src="./js_reg_form.js"></script>
+</head>
+<body>
+    <p> Registration form</p>
+    <form id="form">
+        <label>Name</label>
+        <input type="text" placeholder="enter your name" required id="name" \><br>
+        <label>E-mail</label>
+        <input type="email" placeholder="enter your email" required id="email" \><br>
+        <label>phone number</label>
+        <input type="number" placeholder="enter your number" required id="phnum" \><br>
+        <label> password</label>
+        <input type="password" placeholder="password" required id="password" \><br>
+        <label> confirm password</label>
+        <input type="password" placeholder="confirm password" id="confirm password" required \><br>
+        Male <input type="radio" name="Male" id="male">
+        Female<input type="radio" name="Male" id="female" \><br>
+        
+        <input type="checkbox" id="check">
+        is above details are correct<br>
+
+        <select id="city">
+            <option>enter your city</option>
+            <option> bangalore</option>
+            <option> mysore</option>
+            <option> mandya</option>
+        </select><br>
+        <button type="button" onclick="formSubmit()">submit</button> 
+    </form>
+    
+</body>
+</html>
