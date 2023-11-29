@@ -1,0 +1,24 @@
+.h6{
+    color :"red";
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+ 
+}
+body{
+    background-color: FEFAE0;
+}
+.tdnum{
+    font-weight: bold;
+}
+.footer{
+    background-color: F3EEEA;
+    /* text-align: center; */
+}
+.scroll-bar{
+    height: 400px;
+    width: auto;
+    border: 1px solid gray ;
+    overflow: auto;
+}
