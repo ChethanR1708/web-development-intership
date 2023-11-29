@@ -31,7 +31,7 @@ const getData = (coin) => {
     console.log("LLLLLLLLLLLLLLLL"+coin)
 
     sessionStorage.setItem("coinId",JSON.stringify(coin))
-    window.location.href="./sam.html"
+    window.location.href="./coingeko_1.html"
 }
 const a=new Date
 document.getElementById("live").innerHTML=new Date
