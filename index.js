@@ -70,7 +70,7 @@ function getdetails(){
       let lname=document.getElementById("lname").value;
         button=document.getElementById("b");
      
-     if(lname.length>=0 && lname.length<15){
+     if(lname.length>=1 && lname.length<15){
         result2=1
         document.getElementById("b").innerHTML = ' <b style="color:green;font-size: 12px">Name is Last Valid<b>'
         console.log("yes")
@@ -102,7 +102,7 @@ function getdetails(){
       let phno=document.getElementById("phno").value;
         button=document.getElementById("b");
      
-     if(phno.length==9 ){
+     if(phno.length==10 ){
         result4=1
         document.getElementById("d").innerHTML = ' <b style="color:green;font-size: 12px"> Phone number is Valid<b>'
         console.log("yes") 
@@ -120,7 +120,7 @@ function getdetails(){
         
         button=document.getElementById("b");
      
-     if(q4ualification.length>=1 ){
+     if(q4ualification.length>=2 ){
         result5=1
         document.getElementById("e").innerHTML = ' <b style="color:green;font-size: 12px">Qualification is Valid <b>'
         console.log("yes") 
